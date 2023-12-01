@@ -79,6 +79,7 @@ maleFisher
 ```
 
 
+The Chi Squared test shows that the P value for the tested data is much smaller than the 0.05 limit. The results show $1.098\times10^{-13}$. This very small number shows that there is a difference in the data. Also, the Chi Squared statistic is 55, which is larger than the degree of freedom. Thus, the odds of an unvaccinated man getting Covid 19 is 2.2 times greater than a man with the vaccine.   
 
 ## Females
 
