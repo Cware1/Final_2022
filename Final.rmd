@@ -98,6 +98,15 @@ We can see from the results that the confidence interval is >50% with a normal v
 ## Females
 
 
+### Graphical Results
+
+```{r}
+barchartGC(~infected + treatment,data=female)
+barchartGC(~infected + treatment,data=female, type="percent")
+```
+
+
+
 ## LGBTQ
 
 
