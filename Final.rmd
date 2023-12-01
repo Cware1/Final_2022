@@ -39,6 +39,8 @@ $H_A$ : There are statistically significant difference in the data, meaning the 
 When looking at the data, this seems like its going to be categorical explained by another categorical. We will create a separate data set for each sub population. Then use the helper file CandP to create a bar chart and display the data. Then we will use xtabs for percentages on the data.Given that we are only testing two types, we will not need to use any loops to measure multiple variables. 
 
 
+# Results
+
 
 ## Males
 
