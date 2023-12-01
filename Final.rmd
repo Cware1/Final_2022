@@ -212,5 +212,12 @@ barchartGC(~infected + treatment,data=drugUser, type="percent")
 The barchart above shows the graphical results for all people identified on drugs or druggies and how they contract Covid 19 based on whether or not they have the vaccine. The left shows positive right shows negative. In this instance it was five or six times more likely that a person who had contracted Covid 19 had also received the vaccine and not the placebo. This could suggest that drug users are already much more likely to contract Covid 19 because of Compromised immune systems. There's also the chance of a reverse affect from the vaccination.Which would require a separate study. 
 
 
+### Numerical Results
+
+```{r}
+tableDrug <- xtabs(~infected + treatment, data=drugUser)
+rowPerc(tableDrug)
+colPerc(tableDrug)
+```
 
 # Overall Results and Conclusions
