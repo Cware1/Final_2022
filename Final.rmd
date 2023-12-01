@@ -128,7 +128,7 @@ femaleFisher <- fisher.test(tableFemale)
 femaleFisher
 ```
 
-
+The Chi Squared test shows that the P value for the data is smaller than the 0.05 limit. With the number being $2.732\times10^{-4}$.Showing that there is statistical significance.The Chi Squared statistic 13, which is also higher than the degrees of freedom for this group's results. Thus, the odds of an unvaccinated female contracting Covid 19 is 1.5 times higher than a female that has taken the vaccine contracting Covid 19.   
 
 
 ## LGBTQ
