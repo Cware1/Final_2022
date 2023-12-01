@@ -226,5 +226,13 @@ The numerical results concur with what the graphical results show. The placebo g
 
 
 
+### Inferential Results
+
+```{r}
+chisq.test(tableDrug)
+chisqtestGC(tableDrug)
+drugFisher <- fisher.test(tableDrug)
+drugFisher
+```
 
 # Overall Results and Conclusions
