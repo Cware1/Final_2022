@@ -18,11 +18,27 @@ FinalDat <-read.csv(file="final.csv",header=TRUE)
 FinalData <- FinalDat  %>% select(-one_of("X"))
 FinalData <- FinalData %>%
 mutate(across(where(is.character), as.factor))
-```
 
+male = filter(FinalData, sex =="M")
+female = filter(FinalData, sex =="F")
+lgbtq = filter(FinalData, LGBTQ =="gay")
+drugUser = filter(FinalData, DrugUser =="yes")
+
+```
 # Introduction
 
 A new  preventative vaccine (covid921) is under test in clinical trials. Given the nature of this vaccine it is suspected that the drug may exhibit different effectiveness across the variety of subpopulations tracked. Consider population subgroups by gender( guys and gals), drug use, and sexual orientation. Write a complete report that separately considers this drug for each subgroup and your recommendations as to whether people in the subgroup should take the vaccine. Structure your report in four sections each devoted to one of the four subgroups, use null and alternative hypothesis statements and correct statistical verbage when referencing p-values in conclusions.
+
+
+$H_0$ : There are NO statistically significant difference in the data, meaning the vaccine and placebo are equally as effective.
+
+$H_A$ : There are statistically significant difference in the data, meaning the vaccine and placebo are NOT equally as effective.
+
+# Methods
+
+When looking at the data, this seems like its going to be categorical explained by another categorical. We will create a separate data set for each sub population. Then use the helper file CandP to create a bar chart and display the data. Then we will use xtabs for percentages on the data.Given that we are only testing two types, we will not need to use any loops to measure multiple variables. 
+
+
 
 ## Males
 
