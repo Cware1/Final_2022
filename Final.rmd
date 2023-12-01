@@ -105,7 +105,7 @@ barchartGC(~infected + treatment,data=female)
 barchartGC(~infected + treatment,data=female, type="percent")
 ```
 
-
+The above barchart compares the graphical results of only the Female group data collected. The comparison shows rates of contracting Covid 19 compared to whether or not the group has the vaccine. The left side shows females who contracted Covid 19 while the right shows females that have not. The barchart also shows that those females that took a placebo are a third more likely contracted Covid 19 than females who have taken the vaccine. 
 
 ## LGBTQ
 
