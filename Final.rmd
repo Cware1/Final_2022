@@ -239,4 +239,15 @@ drugFisher
 The Chi Squared test shows that the P value for the tested data is much smaller than the lower limit point of 0.05. The number is $2.842\times10^{-9}$. This small number indicates that there is a statistical difference in the data. The Chi Squared statistic is also 35, being larger than our degrees of freedom of one from this data. The odds of an unvaccinated person contracting Covid 19 in this group are about 1:8.
 
 
+
+### Confidence Interval
+
+```{r}
+oddsDrug = drugFisher$estimate/(drugFisher$estimate +1)*100
+print(oddsDrug)
+drugLow=(drugFisher$conf.int[1]/(drugFisher$conf.int[1]+1))*100
+drugHigh=(drugFisher$conf.int[2]/(drugFisher$conf.int[2]+1))*100
+cat("\n","Condifence interval for Drug Users: ",drugLow," to ",drugHigh)
+```
+
 # Overall Results and Conclusions
