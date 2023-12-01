@@ -220,4 +220,11 @@ rowPerc(tableDrug)
 colPerc(tableDrug)
 ```
 
+
+
+The numerical results concur with what the graphical results show. The placebo group contracted Covid 19 approximately 10% of the time while the vaccinated group contracted Covid 19 90% of the time. We can see that the vaccine is not effective in this group. In fact, it is inversely effective and seems to put this group at a higher risk of contracting Covid 19. This group suffers from even more ill effects than the already negatively effected LGBTQ group.
+
+
+
+
 # Overall Results and Conclusions
