@@ -146,14 +146,24 @@ As we can see from the results, we again see that the confidence interval is >50
 
 ## LGBTQ
 
-## Graphical Results
+### Graphical Results
 
 ```{r}
 barchartGC(~infected + treatment,data=lgbtq)
 barchartGC(~infected + treatment,data=lgbtq, type="percent")
 ```
 
-The above barchart is comparing the graphical results of placebo and vaccine data for only people from the LGBTQ group.Comparing whether or not the vaccine had any effect on the odds of catching Covid 19. The left side of the barchart shows people who contracted Covid 19 while taking the placebo. While the right side shows the people who have taken the vaccine and contracted Covid 19. As we see on the barchart, people who have taken the vaccine appear to be 5 times more likely to contract Covid 19. 
+The above barchart is comparing the graphical results of placebo and vaccine data for only people from the LGBTQ group.Comparing whether or not the vaccine had any effect on the odds of catching Covid 19. The left side of the barchart shows people who contracted Covid 19 while taking the placebo. While the right side shows the people who have taken the vaccine and contracted Covid 19. As we see on the barchart, people who have taken the vaccine appear to be 5 times more likely to contract Covid 19 than those who took a placebo. 
+
+
+
+### Numerical Results
+
+```{r}
+tableLGBTQ <- xtabs(~infected + treatment, data=lgbtq)
+rowPerc(tableLGBTQ)
+colPerc(tableLGBTQ)
+```
 
 ## Druggies
 
