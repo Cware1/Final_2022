@@ -69,6 +69,17 @@ The numerical results above confirm what the barchart data is indicating. Which 
 
 
 
+### Inferential Results
+
+```{r}
+chisq.test(tableMale)
+chisqtestGC(tableMale)
+maleFisher <- fisher.test(tableMale)
+maleFisher
+```
+
+
+
 ## Females
 
 
