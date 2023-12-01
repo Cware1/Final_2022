@@ -93,6 +93,8 @@ maleHigh=(maleFisher$conf.int[2]/(maleFisher$conf.int[2]+1))*100
 cat("\n","Condifence interval for Males: ",maleLow," to ",maleHigh)
 ```
 
+We can see from the results that the confidence interval is >50% with a normal vaccine threshold of >60%. This is enough data to confidently say this vaccine is effective at preventing Covid 19 for this group. 
+
 ## Females
 
 
