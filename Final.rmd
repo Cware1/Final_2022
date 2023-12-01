@@ -195,6 +195,9 @@ lgbtqHigh=(lgbtqFisher$conf.int[2]/(lgbtqFisher$conf.int[2]+1))*100
 cat("\n","Condifence interval for LGBTQ: ",lgbtqLow," to ",lgbtqHigh)
 ```
 
+We see from the results, the confidence interval is 7-26%. This is far lower than 50%. Thus, we can say that this is not a very good vaccine.
+
+
 ## Druggies
 
 
