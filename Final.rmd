@@ -117,6 +117,8 @@ colPerc(tableFemale)
 ```
 
 
+The numerical results above confirms the suggestion of the graphical data that those who took the placebo contracted Covid 19 approximately 60% of the time. While those females who are have taken the vaccine are contracted Covid 19 40% of the time. Thus showing that the vaccine is generally effective.
+
 ## LGBTQ
 
 
