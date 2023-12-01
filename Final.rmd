@@ -181,6 +181,9 @@ lgbtqFisher
 ```
 
 
+The p-value of $6.668\times10^{-8}$ is much smaller than the suggested 0.05 threshold. Showing that this reverse effect of the vaccine is indeed real. The Chi-Squared statistic, 29, supports this as it is larger than the degrees of freedom. The odds for an unvaccinated LGBTQ person getting Covid-19 compared to a vaccinated one are about 1:5. 
+
+
 ## Druggies
 
 
