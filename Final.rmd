@@ -250,4 +250,7 @@ drugHigh=(drugFisher$conf.int[2]/(drugFisher$conf.int[2]+1))*100
 cat("\n","Condifence interval for Drug Users: ",drugLow," to ",drugHigh)
 ```
 
+We see that the confidence interval is 4-21% far lower than 50% so we can say that this is also not a very effective vaccine.
+
+
 # Overall Results and Conclusions
