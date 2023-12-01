@@ -51,6 +51,19 @@ barchartGC(~infected + treatment,data=male)
 barchartGC(~infected + treatment,data=male, type="percent")
 ```
 
+The barchart above is comparing the graphical results for the Males group data set. It compares the rates of contracting Covid 19 with vaccination status. With the left side showing people who have contracted Covid 19, meaning they tested positive, while the right side shows males who have not contracted Covid 19.
+
+Based on the data from the barchart, we can see that more than twice the amount of people taking the placebo contracted Covid 19. While those in the group who had taken the vaccine had a much lower number. Indicating the vaccine does have an effect.   
+
+
+### Numerical Results
+
+```{r}
+tableMale <- xtabs(~infected + treatment, data=male)
+rowPerc(tableMale)
+colPerc(tableMale)
+```
+
 ## Females
 
 
