@@ -141,6 +141,9 @@ femaleHigh=(femaleFisher$conf.int[2]/(femaleFisher$conf.int[2]+1))*100
 cat("\n","Condifence interval for Females: ",femaleLow," to ",femaleHigh)
 ```
 
+As we can see from the results, we again see that the confidence interval is >50% and includes the 60% threshold. Showing that the vaccine is effective. However, its less effective than we saw in the male group results.
+
+
 ## LGBTQ
 
 
