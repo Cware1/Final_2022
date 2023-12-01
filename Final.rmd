@@ -201,4 +201,13 @@ We see from the results, the confidence interval is 7-26%. This is far lower tha
 ## Druggies
 
 
+### Graphical Results
+
+```{r}
+barchartGC(~infected + treatment,data=drugUser)
+barchartGC(~infected + treatment,data=drugUser, type="percent")
+```
+
+
+
 # Overall Results and Conclusions
