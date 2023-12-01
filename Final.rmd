@@ -44,6 +44,12 @@ When looking at the data, this seems like its going to be categorical explained 
 
 ## Males
 
+## Graphical Results
+
+```{r}
+barchartGC(~infected + treatment,data=male)
+barchartGC(~infected + treatment,data=male, type="percent")
+```
 
 ## Females
 
