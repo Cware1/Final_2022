@@ -254,3 +254,25 @@ We see that the confidence interval is 4-21% far lower than 50% so we can say th
 
 
 # Overall Results and Conclusions
+
+We see that for all categories we can reject the Null Hyposthesis but for different reasons, some groups had good results where the vaccine was effective and put people at a lower risk of contracting Covid 19 while others appareled to be at an even higher risk if they received the vaccine. We cannot tell from the data the exact reason for the discrepancy but it would appear that the male and female groups received benefits from the vaccine and are in a lower risk.While on the other hand, LGBTQ and Drug Users have very negative results from the vaccine. 
+
+## Males
+
+With the male group, we can see from the data that they had the best results from the vaccine. The results from percentage charts and bar charts show that a males were less likely to contract Covid 19 if they got the vaccine. We also saw that the difference in statistically significant were small P-Values and high Chi-Squared statistics.Therefore, we can reject the Null Hypothesis in favor of the alternative and determine that the vaccine IS effective in this group.
+
+
+## Females
+
+With the female group, we can see from the data that females had positive results from the vaccine. The results from percentage charts and bar charts show that a females were less likely to contract Covid 19 if they got the vaccine. We also saw that the difference in statistically significant was small P-Values and high Chi-Squared statistics. Therefore, we can reject the Null Hypothesis in favor of the alternative and determine that the vaccine is indeed effective in this group. Although, it was less effective than the male group.
+
+
+
+## LGBTQ
+
+With the LGBTQ group, we can see from the data that this group had negative results from the vaccine. The results from percentage charts and bar charts showed that LGBTQ people were more likely to contract Covid 19 if they got the vaccine. We also saw that the difference in statistically significant was small P-Values and high Chi-Squared statistics. Therefore, we can reject the Null Hypothesis in favor of the alternative and determine that the vaccine was not effective in this group. In fact, it appeared to put this group at a higher risk.
+
+
+## Drug Users
+
+With the drug users group, we can see from the data that they had the worse results from the vaccine. The results from percentage charts and bar charts show that drug users are more likely to contract Covid 19 if they got the vaccine. We can also see that the difference in statistically significant with small P-Values and high Chi-Squared statistics. Therefore, we can reject the Null Hypothesis in favor of the alternative and determine that the vaccine was not effective in this group. It also appears to put this group at a higher risk. More so than the LGBTQ group.
