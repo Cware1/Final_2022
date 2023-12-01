@@ -235,4 +235,8 @@ drugFisher <- fisher.test(tableDrug)
 drugFisher
 ```
 
+
+The Chi Squared test shows that the P value for the tested data is much smaller than the lower limit point of 0.05. The number is $2.842\times10^{-9}$. This small number indicates that there is a statistical difference in the data. The Chi Squared statistic is also 35, being larger than our degrees of freedom of one from this data. The odds of an unvaccinated person contracting Covid 19 in this group are about 1:8.
+
+
 # Overall Results and Conclusions
